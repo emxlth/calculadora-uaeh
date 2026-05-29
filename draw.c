@@ -4,9 +4,7 @@
 
 void draw(Estado *e, Datos *d, Inputs *inp, Recursos *r)
 {
-    // =========================
-    // RECTANGULOS
-    // =========================
+    // rectángulos para botones, cajas de texto, etc.
 
     static Rectangle btn_calcular  = {100, 120, 320, 60};
     static Rectangle btn_necesario = {100, 220, 320, 60};
